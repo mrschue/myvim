@@ -15,13 +15,11 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-syntastic/syntastic'
 
 " stop - all plugins above
 call vundle#end()
@@ -54,7 +52,6 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
     \ set shiftwidth=4|
-    \ set textwidth=79|
     \ set expandtab|
     \ set autoindent|
     \ set fileformat=unix|
