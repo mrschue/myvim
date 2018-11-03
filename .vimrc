@@ -33,6 +33,9 @@ filetype plugin indent on
 let python_highlight_all=1
 syntax on
 set cursorline
+" jedi-vim config
+let g:jedi#popup_on_dot = 0
+
 
 " set color
 set background=dark
@@ -65,6 +68,7 @@ set encoding=utf-8
 
 " Line numbering
 set nu
+set relativenumber
 
 " lightline fix
 set laststatus=2
