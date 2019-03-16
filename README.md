@@ -15,4 +15,4 @@ Start vim and use the command:
 :PluginInstall
 ```
 
-Afterwards, everything should be setup.
+Afterwards, everything should be set up.
